@@ -18,8 +18,12 @@ const TestimonialPage = () => {
           <Row>
             {testimonial.map((data) => {
               return (
-                <Col lg={6} key={data.id} className="shadow-sm mb-2">
-                  <div className="p-2">
+                <Col
+                  lg={6}
+                  key={data.id}
+                  className="shadow-sm mb-2 col border border-1"
+                >
+                  <div className="p-2 testis">
                     <p className="desc">{data.desc}</p>
                     <div className="people">
                       <img
