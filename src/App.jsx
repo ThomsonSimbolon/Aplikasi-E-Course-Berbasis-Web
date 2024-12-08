@@ -2,7 +2,8 @@ import { Routes, Route } from "react-router-dom";
 
 import NavbarComponent from "./components/NavbarComponent";
 import FooterComponent from "./components/FooterComponent";
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./dist/css/style.css";
 import HomePage from "./pages/HomePage";
 import KelasPage from "./pages/KelasPage";
 import TestimonialPage from "./pages/TestimonialPage";
