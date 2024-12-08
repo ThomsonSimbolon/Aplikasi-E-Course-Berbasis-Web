@@ -44,8 +44,12 @@ const HomePage = () => {
                 Lihat Promo
               </button>
             </Col>
-            <Col lg={6} className="pt-lg-5 pt-0">
-              <img src={HeroImage} alt="Hero Image" className="hero-image" />
+            <Col lg={6} className="pt-lg-5 my-2 pt-0">
+              <img
+                src={HeroImage}
+                alt="Hero Image"
+                className="hero-image w-100"
+              />
             </Col>
           </Row>
         </Container>
